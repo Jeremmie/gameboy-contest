@@ -1,0 +1,196 @@
+html,
+body,
+#root
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: content-box radial-gradient(#ff4470, #002129);
+
+}
+
+iframe {
+    width: 550px;
+    height: 520px;
+    border-radius: 15px;
+    border: solid 0px;
+    cursor: grab;
+}
+
+
+
+canvas{
+    touch-action: none;
+}
+
+.screen{
+    visibility: visible;
+}
+
+.div_credits{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 99vw;
+    bottom: 0;
+    position: fixed;
+    z-index: 100;
+    height: 10%;
+}
+.creditPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+    bottom: 0;
+    position: absolute;
+    z-index: 100;
+    height: 100vh;
+}
+.creditPage > h3{
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 50vw;
+    bottom: 0;
+    position: fixed;
+    z-index: 100;
+    height: fit-content;
+    background-color: #FFB8B8;
+    
+}
+.credits{
+    position: fixed;
+    z-index: 100;
+    color: white;
+    bottom: 20px;
+    font-family: Helvetica, Arial;
+    background-color: #FFB8B850;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.deleteDefaultCube {
+	padding: 10px;
+	white-space: nowrap;
+	cursor: pointer;
+	border-radius: 25px;
+	font-family: helvetica, Arial;
+	background-color: #FFB8B850;
+	color: #FFB8B8;
+    
+}
+
+.deleteDefaultCube > h3 {
+    background-color: #002129;
+    padding: 10px 8px 10px 8px;
+    border-radius: 20px;
+    font-size: 1.6rem;
+    margin: 0 0 10px 0;
+}
+
+button {
+	margin: 0 auto 0 auto;
+	
+	transition: all 500ms ease-out;
+	font-size: 1rem;
+    background-color: #002129;
+    padding: 10px 8px 10px 8px;
+    border-radius: 20px;
+    color: #FFB8B8;
+}
+
+button:hover{
+    margin: 0 auto 0 auto;
+	transition: all 500ms ease-out;
+	font-size: 1rem;
+    background-color: #FFB8B8;
+    padding: 10px 8px 10px 8px;
+    border-radius: 20px;
+    color: #002129;
+}
+
+.choiceB_img1 {
+    position: absolute;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+}
+.choiceB_img2 {
+    position: absolute;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+}
+.choiceB_img3 {
+    position: absolute;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+}
+.choiceA_img1 {
+    position: absolute;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+}
+.choiceA_img2 {
+    position: absolute;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+}
+.choiceA_img3 {
+    position: absolute;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+}
+
+@media screen and (max-width: 1025px){
+    button {
+        margin: 0 auto 0 auto;
+        display: block;
+        transition: all 500ms ease-out;
+        font-size: 1rem;
+        background-color: #002129;
+        padding: 10px 8px 10px 8px;
+        border-radius: 20px;
+        color: #FFB8B8;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+    button {
+        margin: 0 auto 0 auto;
+        display: block;
+        transition: all 500ms ease-out;
+        font-size: 1rem;
+        background-color: #002129;
+        padding: 10px 8px 10px 8px;
+        border-radius: 20px;
+        color: #FFB8B8;
+        font-size: 0.7rem;
+    }
+    .deleteDefaultCube > h3 {
+        background-color: #002129;
+        padding: 10px 8px 10px 8px;
+        border-radius: 20px;
+        font-size: 0.7rem;
+        margin: 0 0 10px 0;
+    }
+} 
+
